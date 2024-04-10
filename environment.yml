@@ -1,0 +1,14 @@
+name: pipeline
+channels:
+    - conda-forge
+    - bioconda
+    - defaults
+dependencies:
+    - fastqc
+    - hisat2
+    - htseq
+    - samtools
+    - r-base
+    - bioconductor-deseq2
+    - zenodo_get
+    - bash_kernel
